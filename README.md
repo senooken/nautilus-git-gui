@@ -4,8 +4,9 @@ Nautilus Git GUI is extension for Nautilus which is default GNOME file manager.
 This extension make us easy to access `git-gui` and `gitk` command in current directory.
 
 Nautilus Git GUI adds following menu to application menu when right click in empty place.
-* [Run git gui]: run `git gui` command in current direcotry.
-* [Run gitk]: run `gitk` command in current directory.
+
+* `[Run git gui]`: run `git gui` command in current direcotry.
+* `[Run gitk]`: run `gitk` command in current directory.
 
 
 ## Screenshot
@@ -39,5 +40,5 @@ Delete `nautilus-git-gui.py` and `nautilus-git-gui.pyc` in following directory.
 
 
 ## Attribution
-Auther: SENOO, Ken
-License: CC0
+* Auther: SENOO, Ken
+* License: CC0
