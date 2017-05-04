@@ -11,6 +11,7 @@ Nautilus Git GUI adds following menu to application menu when right click in emp
 
 ## Screenshot
 ![Application menu](./img/application-menu.jpg)
+
 ![git-gui](./img/git-gui.jpg)
 ![gitk](./img/gitk.jpg)
 
