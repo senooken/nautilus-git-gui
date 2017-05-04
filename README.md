@@ -10,6 +10,7 @@ Nautilus Git GUI adds following menu to application menu when right click in emp
 
 ## Screenshot
 ![Application menu](./img/application-menu.jpg)
+
 ![git-gui](./img/git-gui.jpg)
 ![gitk](./img/gitk.jpg)
 
@@ -39,5 +40,5 @@ Delete `nautilus-git-gui.py` and `nautilus-git-gui.pyc` in following directory.
 
 
 ## Attribution
-Auther: SENOO, Ken
-License: CC0
+* Auther: SENOO, Ken
+* License: CC0
