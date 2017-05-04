@@ -5,8 +5,8 @@ This extension make us easy to access `git-gui` and `gitk` command in current di
 
 Nautilus Git GUI adds following menu to application menu when right click in empty place.
 
-* `[Run git gui]`: run `git gui` command in current direcotry.
-* `[Run gitk]`: run `gitk` command in current directory.
+* `[Git GUI Here]`: run `git gui` command in current direcotry.
+* `[Gitk Here]`: run `gitk` command in current directory.
 
 
 ## Screenshot
