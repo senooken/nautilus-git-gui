@@ -3,8 +3,8 @@
 ## \file      nautilus-git-gui.py
 ## \author    SENOO, Ken
 ## \copyright CC0
-## \date      created date: 2017-05-04T14:04+09:00
-## \date      updated date: 2017-05-05T03:11+09:00
+## \date      Created: 2017-05-04T14:04+09:00
+## \date      Updated: 2020-03-10T00:14+09:00
 
 import os, subprocess
 from gi.repository import Nautilus, GObject
@@ -39,4 +39,4 @@ class NautilusGitGUI(Nautilus.MenuProvider, GObject.GObject):
         subprocess.Popen(["git", "gui"], cwd=file.get_location().get_path())
 
     def _gitk_run(self, menu, file):
-        subprocess.Popen(["gitk"], cwd=file.get_location().get_path())
+        subprocess.Popen(["gitk", "--all"], cwd=file.get_location().get_path())
