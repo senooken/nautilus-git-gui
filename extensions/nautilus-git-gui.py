@@ -9,9 +9,9 @@
 import os, subprocess
 from gi.repository import Nautilus, GObject
 
-class NautilusGitGUI(Nautilus.MenuProvider, GObject.GObject):
+class NautilusGitGUI(GObject.GObject, Nautilus.MenuProvider):
     def __init__(self):
-        pass
+        super().__init__()
 
     def get_background_items(self, window, file):
         # Add the menu items
